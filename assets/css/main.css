@@ -1,0 +1,133 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles for the portfolio */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: #0a0a0a;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1a1a1a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ff6200;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #e55a00;
+}
+
+/* Animation utilities */
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slide-up {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.8s ease-out;
+}
+
+.animate-slide-up {
+  animation: slide-up 0.8s ease-out 0.2s both;
+}
+
+/* 3D Text with Glow Effect */
+.text-3d-glow {
+  text-shadow: 
+    2px 2px 0px rgba(0, 0, 0, 0.3),
+    4px 4px 0px rgba(0, 0, 0, 0.2),
+    6px 6px 0px rgba(0, 0, 0, 0.1);
+}
+
+/* Rotating Halo Effect */
+.rotating-halo {
+  width: 120%;
+  height: 120%;
+  border-radius: 50%;
+  background: conic-gradient(
+    from 0deg,
+    transparent 0deg,
+    rgba(255, 98, 0, 0.3) 60deg,
+    rgba(59, 130, 246, 0.4) 120deg,
+    rgba(251, 191, 36, 0.3) 180deg,
+    rgba(139, 92, 246, 0.4) 240deg,
+    rgba(236, 72, 153, 0.3) 300deg,
+    transparent 360deg
+  );
+  animation: rotate-halo 8s linear infinite;
+  filter: blur(8px);
+  opacity: 0.7;
+}
+
+.rotating-halo::before {
+  content: '';
+  position: absolute;
+  inset: 10%;
+  border-radius: 50%;
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 0.1) 0%,
+    rgba(255, 98, 0, 0.2) 30%,
+    rgba(59, 130, 246, 0.2) 50%,
+    rgba(251, 191, 36, 0.2) 70%,
+    transparent 100%
+  );
+  animation: rotate-halo 12s linear infinite reverse;
+  filter: blur(4px);
+}
+
+.rotating-halo::after {
+  content: '';
+  position: absolute;
+  inset: 20%;
+  border-radius: 50%;
+  background: conic-gradient(
+    from 180deg,
+    transparent 0deg,
+    rgba(255, 255, 255, 0.3) 90deg,
+    rgba(255, 98, 0, 0.4) 180deg,
+    rgba(59, 130, 246, 0.3) 270deg,
+    transparent 360deg
+  );
+  animation: rotate-halo 6s linear infinite;
+  filter: blur(6px);
+}
+
+@keyframes rotate-halo {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
