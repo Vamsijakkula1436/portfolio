@@ -152,12 +152,13 @@
               <h3 class="text-xl font-bold text-white">AI/ML & Frameworks</h3>
             </div>
             <div class="flex flex-wrap gap-2">
+              <span class="px-3 py-1 bg-green-500/20 text-green-300 rounded-full text-sm">Streamlit</span>
+              <span class="px-3 py-1 bg-red-500/20 text-red-300 rounded-full text-sm">Flask</span>
               <span class="px-3 py-1 bg-orange-500/20 text-orange-300 rounded-full text-sm">scikit-learn</span>
               <span class="px-3 py-1 bg-red-500/20 text-red-300 rounded-full text-sm">TensorFlow</span>
               <span class="px-3 py-1 bg-purple-500/20 text-purple-300 rounded-full text-sm">PyTorch</span>
               <span class="px-3 py-1 bg-blue-500/20 text-blue-300 rounded-full text-sm">Pandas</span>
               <span class="px-3 py-1 bg-green-500/20 text-green-300 rounded-full text-sm">NumPy</span>
-              <span class="px-3 py-1 bg-pink-500/20 text-pink-300 rounded-full text-sm">XGBoost</span>
               <span class="px-3 py-1 bg-yellow-500/20 text-yellow-300 rounded-full text-sm">spaCy</span>
               <span class="px-3 py-1 bg-indigo-500/20 text-indigo-300 rounded-full text-sm">LangChain</span>
               <span class="px-3 py-1 bg-teal-500/20 text-teal-300 rounded-full text-sm">OpenCV</span>
@@ -173,12 +174,9 @@
             <div class="flex flex-wrap gap-2">
               <span class="px-3 py-1 bg-orange-500/20 text-orange-300 rounded-full text-sm">AWS (EC2, S3)</span>
               <span class="px-3 py-1 bg-blue-500/20 text-blue-300 rounded-full text-sm">Microsoft Azure</span>
-              <span class="px-3 py-1 bg-cyan-500/20 text-cyan-300 rounded-full text-sm">Docker</span>
-              <span class="px-3 py-1 bg-green-500/20 text-green-300 rounded-full text-sm">MongoDB Atlas</span>
               <span class="px-3 py-1 bg-red-500/20 text-red-300 rounded-full text-sm">Redis</span>
               <span class="px-3 py-1 bg-purple-500/20 text-purple-300 rounded-full text-sm">REST APIs</span>
               <span class="px-3 py-1 bg-gray-500/20 text-gray-300 rounded-full text-sm">Linux</span>
-              <span class="px-3 py-1 bg-blue-500/20 text-blue-300 rounded-full text-sm">Windows</span>
               <span class="px-3 py-1 bg-yellow-500/20 text-yellow-300 rounded-full text-sm">CRON</span>
             </div>
           </div>
@@ -221,9 +219,6 @@
               <span class="px-3 py-1 bg-orange-500/20 text-orange-300 rounded-full text-sm">Git</span>
               <span class="px-3 py-1 bg-gray-500/20 text-gray-300 rounded-full text-sm">GitHub</span>
               <span class="px-3 py-1 bg-blue-500/20 text-blue-300 rounded-full text-sm">VS Code</span>
-              <span class="px-3 py-1 bg-green-500/20 text-green-300 rounded-full text-sm">Streamlit</span>
-              <span class="px-3 py-1 bg-red-500/20 text-red-300 rounded-full text-sm">Flask</span>
-              <span class="px-3 py-1 bg-purple-500/20 text-purple-300 rounded-full text-sm">JDBC</span>
               <span class="px-3 py-1 bg-yellow-500/20 text-yellow-300 rounded-full text-sm">Fusion 360</span>
               <span class="px-3 py-1 bg-pink-500/20 text-pink-300 rounded-full text-sm">Cura</span>
               <span class="px-3 py-1 bg-indigo-500/20 text-indigo-300 rounded-full text-sm">MSC NASTRAN</span>
